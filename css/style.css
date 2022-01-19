@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(#4D4E4E, #5e5e5e);
+}
+
+.logo{
+    width: 60px;
+    height: auto;
+    margin: 0px;
+    margin-left: 25px;
+    padding: 0px;
+}
+
+.navbar-light{
+    height: 75px;
+    background-color: #4E4E4E;
+    box-shadow: 0 3px 7px 0 rgba(0, 0, 0);
+}
+
+.nav-home{
+    text-decoration: none;
+    color: white;
+    font-family: 'Signika';
+    font-size: 30px;
+    margin-left: 950px;
+    position: relative;
+    top: 15px;
+    padding: 40px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 5px ;
+    padding-bottom: 9px;
+}
+
+.nav-chat{
+    text-decoration: none;
+    color: white;
+    font-family: 'Signika';
+    font-size: 30px;
+    position: relative;
+    top: 15px;
+    padding-left: 10px;
+    padding-bottom: 9px;
+}
+
+.text{
+    text-decoration: none;
+    color: white;
+    font-family: 'Signika';
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 4px;
+    position: relative;
+    top: 10px;
+}
+
+
+.container{
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 40px;
+    height: 65vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px;
+}
+
+/* .photo{
+    display: inline;
+    margin-left: 10px;
+    width: 1090px;
+    height: 340px;
+} */
+
+.message{
+    background-color: rgb(168, 168, 168);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    
+    border-radius: 10px;
+}
+
+.left{
+    float: left;
+    clear: both;
+}
+
+.right{
+    float: right;
+    clear: both;
+}
+
+#send-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 985px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#messageInp{
+    width: 1091px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    height: 34px;
+    margin-left: 20px;
+}
+
+
+.btn{
+    cursor: pointer;
+    font-family: 'Signika';
+}
+
+.btn:hover{
+    font-weight: bold;
+    font-family: 'Signika';
+    font-size: large;
+}
+
+.nav-home:hover{
+    border-bottom: 5px solid #FFFF;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    transition: all 0.3s ease 0s;
+}
+
+.nav-chat:hover{
+    border-bottom: 5px solid #FFFF;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    transition: all 0.3s ease 0s;
+}
+
+.text:hover{
+    color: white;
+}
+
+.container, #messageInp, .btn{
+    animation: transitionIn 0.75s;
+}
+
+@keyframes transitionIn{
+    from{
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}

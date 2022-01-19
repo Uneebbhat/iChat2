@@ -1,0 +1,20 @@
+<img class="logo" src="ws.png" alt="" />
+  <h1>Welcome to iChat</h1> 
+ <nav>
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">iChat</a>
+      <a class="nav-link" href="index.html">Home</a>
+      <a class="nav-link" href="chat.html">Chat</a>
+    </div>
+  </nav> 
+
+
+
+
+
+  <nav>
+    <div class="navbar">
+      <a class="nav-home" href="index.html">Home</a>
+      <a class="nav-ichat" href="chat.html">iChat</a>
+    </div>
+  </nav>
